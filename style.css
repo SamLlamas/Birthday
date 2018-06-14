@@ -1,0 +1,66 @@
+body {
+  font: 18px arial, sans-serif;
+  background: #eee;
+}
+
+#animals {
+  width: 100%;
+  
+}
+
+.animal-item {
+  padding: 10px;
+  display: inline-block;
+}
+
+form {
+  float: right;
+  width: 30%;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 40px;
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+  background: #659a98;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px #bbb;
+  position: absolute;
+  top: 50%;
+  left: 35%
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #334e4d;
+}
+
+button.active {
+  background: #334e4d;
+}
+
+#guylove{
+  margin: 5px 35%;
+}
+
+#message{
+  font-family: 'Courgette', cursive;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  font-size: 36px;
+}
