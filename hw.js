@@ -21,7 +21,7 @@ $(document).ready(function() {
     $(".animal-button").removeClass("active");
     $(this).addClass("active");
 
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=Happy_Birthday&api_key=dc6zaTOxFJmzC&limit=13";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=Happy_Birthday&api_key=dc6zaTOxFJmzC&limit=13";
 
     $.ajax({
       url: queryURL,
